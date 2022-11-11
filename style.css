@@ -4,17 +4,23 @@
 }
 
 body {
-    background-color: rgb(62, 64, 66);
+    background-color: rgb(255, 0, 255);
     color: rgb(251, 251, 250);
     font-size: 30px;
 }
 
 h1 {
-    color: rgb(144, 26, 26);
+    color: rgb(247, 0, 255);
 }
 
 .conteudo {
     display: flex;
 
     height: 200px;
+}
+
+.conteudo > .esquerdo > img {
+    width: 70px;
+    height: 70px;
+
 }

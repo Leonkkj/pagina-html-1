@@ -1,21 +1,31 @@
+:root {
+    --primeira-cor:#084c61;
+    --segunda-cor:#db504a;
+
+    --borda:#e3b505;
+
+    --fundo:#4f6d7a;
+
+    --text:#56a3a6;
+}
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: rgb(255, 0, 255);
-    color: rgb(251, 251, 250);
+    background-color:var(--fundo);
+    color:var(--text);
     font-size: 30px;
 }
 
 h1 {
-    color: rgb(247, 0, 255);
+    color:var(--primeira-cor);
 }
 
 .conteudo {
     display: flex;
-
+t
     height: 200px;
 }
 
